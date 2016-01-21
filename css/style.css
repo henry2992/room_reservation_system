@@ -1,0 +1,481 @@
+/**/
+.navbar-fixed-top{
+  position: relative !important;  
+}
+
+/*NAV BAR*/
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    color: #7b0051 !important;
+}
+
+/********** INDEX **************/
+#mainNav{
+    margin-bottom: 0px !important;
+    height: 8vh !important;
+}
+
+.img-slider{
+    width: 100% !important;
+    height: 92vh !important;
+}
+
+.flexslider-container {
+    width: 100vw;
+    height: 92vh;
+    padding: 0px;
+}
+
+.flexslider{
+    border: 0px !important;
+}
+
+.bg-img-1 {
+    background: url(../images/1.jpg);
+    text-align: center;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.bg-img-2 {
+    background: url(../images/2.jpg);
+    text-align: center;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.bg-img-3 {
+    background: url(../images/3.jpg);
+    text-align: center;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/*Form*/
+
+#search-form{
+    font-size: 11px;
+    position: absolute;
+    top: 105px;
+    right: 5%;
+    width: 30%;
+    z-index: 100;
+
+}
+
+
+.search-form-body{
+
+    background-color:rgba(255, 255, 255, 0.7);
+    padding-bottom: 10px;
+}
+
+
+.form-item{
+    margin-top: 0 !important;
+}
+
+.booking_box label{
+    text-transform: uppercase;
+}
+
+.booking-date{
+    margin-left: 9% !important;
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#search-button{
+    display: block !important;
+    margin-left: 0 !important;
+    text-align: center;
+}
+
+#send{
+    background: none repeat scroll 0 0 #7b0051;
+    border: medium none;
+    color: #fff;
+    font-family: Century Gothic;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.datepicker{
+    background: url(../images/calendar.png) no-repeat scroll 75px 5px #efefef !important;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    color: #000;
+    cursor: pointer;
+    max-width: 68% !important;
+    padding: 5px !important;
+}
+
+
+
+.search-form-head{
+    background: none repeat scroll 0 0 #2d363d;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.search-form-head h1{
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase; 
+    margin: 0 !important;
+    padding: 0 !important; 
+}
+
+/******* SEARCH RESULTS *********/
+
+/******************
+*   steps
+*******************/
+
+.steps-box{
+    margin-top: 50px;
+}
+.steps-box li {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.steps-box ul{
+padding: 0 !important;
+    margin: 0 !important;
+}
+
+html .steps{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    border-top-width:0px;
+}
+.active .num-step{
+    width: 37px;
+}
+.steps .inactive *{
+    opacity:.5;
+}
+.steps .active .text{
+    font-weight:bold;
+}
+.steps  .num-step {
+    width: 0;
+}
+.steps .active .num-step {
+     width: 38px;
+}
+
+.step1 .text, .step2 .text, .step3 .text{
+    vertical-align:middle;
+    display: inline-block;  
+    line-height:33px;
+    text-transform:uppercase;
+}
+.step1, .step2, .step3{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.steps li{
+    position:relative;
+}
+/*Reserve steps*/
+.steps-booking li.active{
+    background-color: #000 !important
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 21px 0 21px 27px;
+    position:absolute;
+    right: -26px;
+    top: 0;
+    z-index: 11;
+}
+
+.triangle-white{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 24px 0 24px 32px;
+    border-color: transparent transparent transparent #ffffff;
+    height: 0;
+    position: absolute;
+    right: -32px;
+    top: -3px;
+    width: 0;
+    z-index: 10;
+}
+.steps-booking.extraservices .triangle{
+    border-width: 25px 0 25px 27px;
+}
+.steps-booking.extraservices .triangle-white{
+    border-width: 27px 0 33px 33px;
+}
+.triangle-down{
+    border-style: solid;
+    border-width: 9.2px 8.5px 0;
+    bottom: -7px;
+    height: 0;
+    left: 9px;
+    position: absolute;
+    width: 0;
+}
+.triangle-left{
+    border-style: solid;
+    border-width: 7px 12px 7px 0;
+    height: 0;
+    left: -11px;
+    position: absolute;
+    top: 17px;
+    width: 0;
+    z-index: 101;
+}
+.steps-booking {
+    background-color: #f2f3f5;
+    display: block;
+    height: 42px;
+    width: 100%;
+}
+.steps-booking.extraservices {
+    height:50px;
+}
+.steps-booking li{
+    float: left; margin-bottom: 10px ; position: relative;
+}
+
+.steps-booking li .text{
+    height: 42px;line-height: 42px;
+}
+.steps-booking.extraservices li .text{
+    height: 50px;line-height: 46px;
+}
+.steps-booking li{
+    background-color:#f2f3f5;
+    color: #474f52;
+}
+.steps-booking li .triangle{
+    border-color: transparent transparent transparent #f2f3f5;
+}
+.steps-booking li.active{
+    color: #f2f3f5;
+}
+.steps-booking li .text{
+    padding:0 15px 0px 40px;
+}
+.steps-booking li:first-child .text{
+    padding:0 15px;
+}
+
+.steps-booking li.active .triangle{
+    border-color: transparent transparent transparent #000;
+}
+
+/****
+    SEARCH RESULTS
+***/
+
+.search-results-box{
+    margin-top: 25px;
+    border-top: 2px solid black;
+    border-bottom:  1px solid  #ccc;
+    margin-bottom: 30px;
+
+    padding-bottom: 30px;
+    border-right:  1px solid  #ccc;
+    border-left:  1px solid  #ccc;
+}
+
+.room-img-holder{
+    display: inline-block;
+}
+
+.room-title-holder{
+    display: inline-block;
+    width: 60%;
+}
+
+
+.room-img{
+    display: inline-block;
+    max-width: 350px;
+    vertical-align: bottom;
+}
+
+.room-title{
+    display: block;
+    font-size: 1.5em;
+    padding-left: 3px;
+    position: relative;
+    vertical-align: top;
+    font-weight: bold;
+    color: #666;
+    margin-top: 30px;
+}
+
+.room-description{
+    display: inline-block;
+    width: 100%;
+}
+
+.price-holder{
+    display: inline-block;
+    height: 40px;
+    background-color: black;
+    width: 100%;
+}
+.price-holder h4{
+    color: white;
+}
+.price-room{
+    color:  #ff9300;
+    font-size: 20px;
+}
+
+#room-reserve-button{
+    width: 200px;
+    margin-left: auto;
+   margin-right: auto;
+
+}
+
+
+/****
+    RESERVATION.PHP
+*****/
+
+.customer-reservation-holder{
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.customer-reservation-price{
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom:  1px solid  #ccc;
+    border-right:  1px solid  #ccc;
+    border-left:  1px solid  #ccc;
+}
+.customer-reservation-form{
+    width: 100%;
+
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+
+    border-top: 2px solid black;
+    border-bottom:  1px solid  #ccc;
+    border-right:  1px solid  #ccc;
+    border-left:  1px solid  #ccc;
+}
+
+.value {
+    color:  #ff9300;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.form-label{
+    width: 100px;
+}
+
+#content h1{
+    margin-left: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+.reservation-btn{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto !important;
+   margin-right: auto !important;
+}
+
+.error {
+   margin-left: 20px;
+    margin-bottom: 15px; 
+}
+
+/****
+    RESERVATION RESULTS
+***/
+
+
+.reservation-results-box{
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+
+    border-top: 2px solid black;
+    border-bottom:  1px solid  #ccc;
+    border-right:  1px solid  #ccc;
+    border-left:  1px solid  #ccc;
+}
+
+
+/*********
+    USERS
+********/
+
+
+.login{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+
+    border-top: 2px solid black;
+    border-bottom:  1px solid  #ccc;
+    border-right:  1px solid  #ccc;
+    border-left:  1px solid  #ccc;  
+}
+
+.login-btn{
+    margin-top: 15px;
+    width: 200px;
+}
+
+.login-account{
+    padding-bottom: 10px;
+    border-bottom:  1px solid  #ccc;
+    border-right:  1px solid  #ccc;
+    border-left:  1px solid  #ccc; 
+}
+
+.reservation{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.inline-display{
+    display: inline-block;
+}
+
+.form-label-user{
+    width: 175px;
+}
